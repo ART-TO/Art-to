@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>
+            Art-to
+        </title>
+        <style>
+              body{
+                  color: white;
+                  background-color: black;
+              }
+              .header{
+                  height: 50px;
+                  font-family: Georgia, 'Times New Roman', Times, serif;
+                  padding-left: 10%;
+              }
+              
+              .GP{
+                  position: relative;
+                  height: 600px;
+              }
+              .hello{
+                  position: absolute;
+                  width: 25%;
+                  height: 100%;
+                  writing-mode: vertical-rl;
+              }
+              .hello p{
+                  padding-top: 35%;
+                  padding-right: 20%;
+                  letter-spacing: 5px;
+              }
+              .content{
+                  position: absolute;
+                  left: 25%;
+                  right: 25%;
+                  top: 0px;
+                  bottom: 0px;
+              }
+              .content p{
+                  padding-top: 35%;
+                  padding-left: 10px;
+                  font-family: Arial, Helvetica, sans-serif;
+              }
+              .footer{
+                  height: 70px;
+              }
+              .bubble{
+                  width: 100%;
+                  position:absolute;
+                  z-index: 2;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-around;
+                  bottom: -120px;
+              }
+              .bubble img{
+                  width: 50px;
+                  animation: bubble 7s linear infinite;
+              }
+              @keyframes bubble{
+                  0%{
+                      transform: translateY(0);
+                      opacity: 0;
+                  }
+                  50%{
+                      opacity: 0.5;
+                  }
+                  70%{
+                      opacity: 0.5;
+                  }
+                  100%{
+                      transform: translateY(-80vh);
+                      opacity: 0;
+                  }
+              }
+              .bubble img:nth-child(1){
+                  width: 20px;
+                  animation-delay: 0s;
+              }
+              .bubble img:nth-child(2){
+                   width: 40px;
+                  animation-delay: 3s;
+              }
+              .bubble img:nth-child(3){
+                  width: 27px;
+                  animation-delay: 2.5s;
+              }
+              .bubble img:nth-child(4){
+                  width: 35px;
+                  animation-delay: 4s;
+              }
+              .bubble img:nth-child(5){
+                  width: 20px;
+                  animation-delay: 1s;
+              }
+              .bubble img:nth-child(6){
+                  width: 50px;
+                  animation-delay: 4.5s;
+              }
+              .bubble img:nth-child(7){
+                  width: 30px;
+                  animation-delay: 0s;
+              }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+             <h1>ART-TO</h1>
+        </div>
+
+
+
+
+        <div class="GP">
+            <div class="bubble">
+                <img src="bubble.png">
+                <img src="bubble.png">
+                <img src="bubble.png">
+                <img src="bubble.png">
+                <img src="bubble.png">
+                <img src="bubble.png">
+                <img src="bubble.png">
+   
+           </div>
+            <div class="hello"><p>-----HELLO-----</p></div>
+            <div class="content"><p>Make Website For Your Business With Art-to.<br>
+                Contact me for more website designs and Posters.</p></div>
+
+        </div>
+
+
+
+
+
+        <div class="footer">
+
+        </div>
+        
+    </body>
+</html>
